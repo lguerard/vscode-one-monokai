@@ -1102,8 +1102,7 @@
       "name": "Python: Method Calls",
       "scope": [
         "meta.function-call.python entity.name.function",
-        "meta.function-call.python variable.function",
-        "support.function.magic.python"
+        "meta.function-call.python variable.function"
       ],
       "settings": {
         "foreground": "#61afef"
@@ -1192,9 +1191,9 @@
       "name": "Python: Loop Targets",
       "scope": [
         "meta.for-in.python variable.other.readwrite.python",
-        "meta.for-in.list.python variable.other.readwrite.python",
         "meta.for-in.python variable.parameter",
-        "meta.for-in variable.other"
+        "meta.for-in.python meta.tuple.python variable.other.readwrite.python",
+        "meta.for-in.python meta.list.python variable.other.readwrite.python"
       ],
       "settings": {
         "foreground": "#d19a66",
