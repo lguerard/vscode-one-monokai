@@ -1,6 +1,17 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.5
+
+- Make Python docstrings much more prominent (higher-contrast yellow with bold+italic style)
+- Add Python exception-class highlighting for easier error-path scanning
+- Add Python base/inherited class highlighting in class declarations
+- Add dedicated Python return/raise/yield keyword coloring
+- Add Python f-string interpolation token highlighting
+- Add Python comprehension separator/operator highlighting
+- Add Python decorator-name emphasis in class/function definitions
+- Add Python parameter punctuation/default-assignment highlighting
+
 ### v0.5.4
 
 - Add broader Python function/method highlighting for definitions and calls

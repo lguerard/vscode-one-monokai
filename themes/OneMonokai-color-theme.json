@@ -795,11 +795,13 @@
       "name": "Python: Docstrings",
       "scope": [
         "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.single.python",
+        "comment.block.documentation.python",
         "comment.block.documentation"
       ],
       "settings": {
-        "foreground": "#676f7d",
-        "fontStyle": "italic"
+        "foreground": "#e5c07b",
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -1233,6 +1235,87 @@
       ],
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Python: Exceptions",
+      "scope": [
+        "support.type.exception.python",
+        "entity.name.type.exception.python",
+        "meta.try.python entity.name.type.class.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python: Inherited/Base Classes",
+      "scope": [
+        "meta.class.python entity.other.inherited-class",
+        "meta.class.python meta.arguments.python entity.name.type.class.python"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Python: Return/Raise/Yield",
+      "scope": [
+        "keyword.control.flow.return.python",
+        "keyword.control.flow.raise.python",
+        "keyword.control.flow.yield.python"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python: F-String Interpolation",
+      "scope": [
+        "meta.interpolation.python",
+        "punctuation.section.interpolation.begin.python",
+        "punctuation.section.interpolation.end.python",
+        "punctuation.definition.interpolation.begin.python",
+        "punctuation.definition.interpolation.end.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: Comprehension Separators",
+      "scope": [
+        "meta.comprehension.python punctuation.separator.comma.python",
+        "meta.comprehension.python punctuation.separator.colon.python",
+        "meta.comprehension.python keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "Python: Decorator Names",
+      "scope": [
+        "meta.function.decorator.python entity.name.function.python",
+        "meta.class.decorator.python entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Python: Parameter Punctuation/Defaults",
+      "scope": [
+        "meta.function.parameters.python punctuation.separator.parameter.python",
+        "meta.function.parameters.python keyword.operator.assignment.python",
+        "meta.function.parameters.python punctuation.definition.parameters.begin.python",
+        "meta.function.parameters.python punctuation.definition.parameters.end.python"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
       }
     }
   ]
