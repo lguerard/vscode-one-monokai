@@ -1906,14 +1906,13 @@
         "meta.function-call.cs entity.name.function.cs"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#98c379"
       }
     },
     {
       "name": "Java/C#/Kotlin: Type and Namespace References",
       "scope": [
         "storage.type.java",
-        "entity.name.type.class.java",
         "entity.name.namespace.java",
         "entity.name.type.namespace.kotlin",
         "entity.name.namespace.kotlin"
@@ -1926,8 +1925,7 @@
       "name": "Go: Function and Method Calls",
       "scope": [
         "meta.function-call.go entity.name.function.go",
-        "support.function.go",
-        "entity.name.function.go"
+        "support.function.go"
       ],
       "settings": {
         "foreground": "#61afef"
