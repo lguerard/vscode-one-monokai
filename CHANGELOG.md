@@ -1,6 +1,13 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.4
+
+- Add broader Python function/method highlighting for definitions and calls
+- Add richer Python call-argument value coloring by token type (strings, numbers, constants, containers, separators/operators)
+- Add broader Python loop coloring for loop keywords, loop targets, iterables/ranges, and comprehension keywords
+- Add Python subscript/slice punctuation coloring to improve index readability
+
 ### v0.5.3
 
 - Add Better TOML-compatible table bracket scopes (`punctuation.definition.table.toml`, `punctuation.definition.array.table.toml`)

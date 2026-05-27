@@ -1083,6 +1083,157 @@
       "settings": {
         "foreground": "#676f7d"
       }
+    },
+    {
+      "name": "Python: Function Definition Names",
+      "scope": [
+        "entity.name.function.python",
+        "meta.function.python entity.name.function.python",
+        "meta.function.method.python entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "#98c379",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python: Method Calls",
+      "scope": [
+        "meta.function-call.python entity.name.function",
+        "meta.function-call.python variable.function",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Python: Call Args - Strings",
+      "scope": [
+        "meta.function-call.arguments.python string.quoted",
+        "meta.function-call.arguments.python string.interpolated"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "Python: Call Args - Numbers",
+      "scope": [
+        "meta.function-call.arguments.python constant.numeric",
+        "meta.function-call.arguments.python constant.numeric.integer",
+        "meta.function-call.arguments.python constant.numeric.float"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "Python: Call Args - Constants",
+      "scope": [
+        "meta.function-call.arguments.python constant.language",
+        "meta.function-call.arguments.python constant.language.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: Call Args - Containers",
+      "scope": [
+        "meta.function-call.arguments.python punctuation.section.brackets.begin.python",
+        "meta.function-call.arguments.python punctuation.section.brackets.end.python",
+        "meta.function-call.arguments.python punctuation.section.parens.begin.python",
+        "meta.function-call.arguments.python punctuation.section.parens.end.python",
+        "meta.function-call.arguments.python punctuation.section.braces.begin.python",
+        "meta.function-call.arguments.python punctuation.section.braces.end.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: Call Args - Separators",
+      "scope": [
+        "meta.function-call.arguments.python punctuation.separator.arguments.python",
+        "meta.function-call.arguments.python punctuation.separator.comma.python"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "Python: Call Args - Operators",
+      "scope": [
+        "meta.function-call.arguments.python keyword.operator.assignment.python",
+        "meta.function-call.arguments.python keyword.operator.unpacking.python",
+        "meta.function-call.arguments.python punctuation.definition.arguments.begin.python",
+        "meta.function-call.arguments.python punctuation.definition.arguments.end.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Python: Loop Keywords",
+      "scope": [
+        "keyword.control.loop.python",
+        "keyword.control.conditional.python",
+        "keyword.operator.logical.python",
+        "keyword.control.flow.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Python: Loop Targets",
+      "scope": [
+        "meta.for-in.python variable.other.readwrite.python",
+        "meta.for-in.list.python variable.other.readwrite.python",
+        "meta.for-in.python variable.parameter",
+        "meta.for-in variable.other"
+      ],
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: Loop Iterables and Ranges",
+      "scope": [
+        "meta.for-in.python meta.sequence.list.python",
+        "meta.for-in.python meta.function-call.python",
+        "meta.for-in.python support.function.builtin.python",
+        "meta.for-in.python variable.other"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Python: Subscript and Slice Punctuation",
+      "scope": [
+        "meta.item-access.python punctuation.section.brackets.begin.python",
+        "meta.item-access.python punctuation.section.brackets.end.python",
+        "meta.item-access.python punctuation.separator.slice.python",
+        "meta.subscription.python punctuation.section.brackets.begin.python",
+        "meta.subscription.python punctuation.section.brackets.end.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: Comprehension Keywords",
+      "scope": [
+        "meta.comprehension.python keyword.control.loop.python",
+        "meta.comprehension.python keyword.control.conditional.python",
+        "meta.comprehension.python keyword.operator.logical.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
     }
   ]
 }
