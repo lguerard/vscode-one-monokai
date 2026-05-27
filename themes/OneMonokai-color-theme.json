@@ -648,9 +648,8 @@
     {
       "name": "Python: Loop Index Variables",
       "scope": [
-        "meta.for-in.list.python variable.other.readwrite.python",
         "meta.for-in.list.python variable.parameter",
-        "meta.for-in variable.other",
+        "meta.for-in.list.python variable.other.readwrite.python",
         "meta.sequence.list variable.other"
       ],
       "settings": {
@@ -801,7 +800,7 @@
       ],
       "settings": {
         "foreground": "#e5c07b",
-        "fontStyle": "italic bold"
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -1302,7 +1301,7 @@
       ],
       "settings": {
         "foreground": "#c678dd",
-        "fontStyle": "italic bold"
+        "fontStyle": "bold italic"
       }
     },
     {
