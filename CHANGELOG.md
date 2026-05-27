@@ -1,6 +1,13 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.3
+
+- Add Better TOML-compatible table bracket scopes (`punctuation.definition.table.toml`, `punctuation.definition.array.table.toml`)
+- Add broader TOML table/header scopes for improved compatibility across TOML grammars
+- Add broader Markdown list scopes (`punctuation.definition.list.begin.markdown`, `markup.list.markdown`)
+- Add broader Python call-argument and index-related fallback scopes used by alternate grammars
+
 ### v0.5.2
 
 - Add escape character highlighting in strings (cyan)

@@ -461,7 +461,10 @@
         "entity.name.section.table.toml",
         "entity.name.section.array.toml",
         "support.type.property-name.table.toml",
-        "support.type.property-name.array.toml"
+        "support.type.property-name.array.toml",
+        "meta.table.toml",
+        "meta.array.table.toml",
+        "entity.name.table.toml"
       ],
       "settings": {
         "foreground": "#61afef",
@@ -474,7 +477,9 @@
         "punctuation.definition.table.begin.toml",
         "punctuation.definition.table.end.toml",
         "punctuation.definition.array.table.begin.toml",
-        "punctuation.definition.array.table.end.toml"
+        "punctuation.definition.array.table.end.toml",
+        "punctuation.definition.table.toml",
+        "punctuation.definition.array.table.toml"
       ],
       "settings": {
         "foreground": "#c678dd",
@@ -605,7 +610,10 @@
     },
     {
       "name": "Markup: List Punctuation",
-      "scope": "punctuation.definition.list_item.markdown",
+      "scope": [
+        "punctuation.definition.list_item.markdown",
+        "punctuation.definition.list.begin.markdown"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#ffffff"
@@ -615,7 +623,9 @@
       "name": "Markdown: List Text",
       "scope": [
         "markup.list.unnumbered.markdown",
-        "markup.list.numbered.markdown"
+        "markup.list.numbered.markdown",
+        "markup.list.markdown",
+        "meta.paragraph.markdown markup.list.markdown"
       ],
       "settings": {
         "foreground": "#98c379"
@@ -626,7 +636,10 @@
       "scope": [
         "keyword.argument.python",
         "entity.name.variable.parameter.function-call.python",
-        "variable.parameter.function-call.python"
+        "variable.parameter.function-call.python",
+        "keyword.argument",
+        "variable.parameter.function-call",
+        "meta.function-call.arguments variable.parameter"
       ],
       "settings": {
         "foreground": "#56b6c2"
@@ -636,7 +649,9 @@
       "name": "Python: Loop Index Variables",
       "scope": [
         "meta.for-in.list.python variable.other.readwrite.python",
-        "meta.for-in.list.python variable.parameter"
+        "meta.for-in.list.python variable.parameter",
+        "meta.for-in variable.other",
+        "meta.sequence.list variable.other"
       ],
       "settings": {
         "foreground": "#d19a66",
@@ -645,12 +660,15 @@
     },
     {
       "name": "Python: Indexed Numbers",
-      "scope": "meta.item-access.python constant.numeric.integer.decimal.python",
+      "scope": [
+        "meta.item-access.python constant.numeric.integer.decimal.python",
+        "meta.item-access constant.numeric",
+        "meta.subscription.python constant.numeric"
+      ],
       "settings": {
         "foreground": "#c678dd"
       }
     },
-
     {
       "name": "Escape Characters",
       "scope": [
@@ -664,7 +682,6 @@
         "foreground": "#56b6c2"
       }
     },
-
     {
       "name": "Regex: Literal String",
       "scope": [
@@ -722,7 +739,6 @@
         "foreground": "#e06c75"
       }
     },
-
     {
       "name": "Decorator / Annotation",
       "scope": [
@@ -751,7 +767,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "name": "Python: self and cls",
       "scope": [
@@ -807,7 +822,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "name": "TypeScript: Types and Interfaces",
       "scope": [
@@ -873,7 +887,6 @@
         "foreground": "#e06c75"
       }
     },
-
     {
       "name": "YAML: Keys",
       "scope": [
@@ -907,7 +920,6 @@
         "foreground": "#56b6c2"
       }
     },
-
     {
       "name": "Shell: Variable References",
       "scope": [
@@ -932,7 +944,6 @@
         "foreground": "#56b6c2"
       }
     },
-
     {
       "name": "Rust: Lifetimes",
       "scope": [
@@ -968,7 +979,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "name": "Ruby: Symbols",
       "scope": [
@@ -992,7 +1002,6 @@
         "foreground": "#61afef"
       }
     },
-
     {
       "name": "CSS: Class Selectors",
       "scope": [
@@ -1053,7 +1062,6 @@
         "foreground": "#d19a66"
       }
     },
-
     {
       "name": "Markdown: Fenced Code Language",
       "scope": [
