@@ -1104,7 +1104,8 @@
         "meta.function-call.python entity.name.function",
         "meta.function-call.python variable.function",
         "meta.member.access.python entity.name.function.python",
-        "meta.attribute.python entity.name.function.python"
+        "meta.attribute.python entity.name.function.python",
+        "meta.function-call.generic.python"
       ],
       "settings": {
         "foreground": "#61afef"
