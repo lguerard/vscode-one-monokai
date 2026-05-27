@@ -1976,6 +1976,8 @@
     "class.abstract": {
       "foreground": "#61afef",
       "fontStyle": "italic"
-    }
+    },
+    "keyword": "#e06c75",
+    "modifier": "#e06c75"
   }
 }
