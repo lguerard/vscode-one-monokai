@@ -798,8 +798,53 @@
         "comment.block.documentation"
       ],
       "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "Python: NumPy Docstring Summary and Sections",
+      "scope": [
+        "meta.summary.numpydocstring.python",
+        "entity.name.section.numpydocstring.python",
+        "markup.heading.numpydocstring.python",
+        "keyword.other.section.numpydocstring.python"
+      ],
+      "settings": {
+        "foreground": "#61afef",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python: NumPy Docstring Argument Names",
+      "scope": [
+        "variable.parameter.numpydocstring.python",
+        "entity.name.variable.parameter.numpydocstring.python"
+      ],
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python: NumPy Docstring Types",
+      "scope": [
+        "storage.type.numpydocstring.python",
+        "support.type.numpydocstring.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: NumPy Docstring Descriptions",
+      "scope": [
+        "comment.numpydocstring.description.python",
+        "meta.description.numpydocstring.python",
+        "meta.documentation.numpydocstring.python"
+      ],
+      "settings": {
         "foreground": "#e5c07b",
-        "fontStyle": "bold italic"
+        "fontStyle": "italic"
       }
     },
     {
@@ -1100,10 +1145,25 @@
       "name": "Python: Method Calls",
       "scope": [
         "meta.function-call.python entity.name.function",
-        "meta.function-call.python variable.function"
+        "meta.function-call.python variable.function",
+        "meta.member.access.python entity.name.function.python",
+        "meta.attribute.python entity.name.function.python"
       ],
       "settings": {
         "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Python: Package / Namespace References",
+      "scope": [
+        "support.module.python",
+        "entity.name.module.python",
+        "meta.import.python entity.name.namespace.python",
+        "meta.member.access.python variable.other.object.python",
+        "meta.member.access.python variable.other.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
       }
     },
     {
@@ -1189,7 +1249,9 @@
       "scope": [
         "meta.for-in.python variable.other.readwrite.python",
         "meta.for-in.python meta.tuple.python variable.other.readwrite.python",
-        "meta.for-in.python meta.list.python variable.other.readwrite.python"
+        "meta.for-in.python meta.list.python variable.other.readwrite.python",
+        "meta.for-in.python variable.other.python",
+        "meta.for-in.python variable.parameter.python"
       ],
       "settings": {
         "foreground": "#d19a66",
@@ -1202,10 +1264,22 @@
         "meta.for-in.python meta.sequence.list.python",
         "meta.for-in.python meta.function-call.python",
         "meta.for-in.python support.function.builtin.python",
-        "meta.for-in.python variable.other"
+        "meta.for-in.python variable.other",
+        "meta.for-in.python variable.other.object.python"
       ],
       "settings": {
         "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Python: Call Args - Variables",
+      "scope": [
+        "meta.function-call.arguments.python variable.other.readwrite.python",
+        "meta.function-call.arguments.python variable.other.python",
+        "meta.function-call.arguments.python variable.parameter.python"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1302,5 +1376,15 @@
         "foreground": "#d19a66"
       }
     }
-  ]
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "namespace": "#56b6c2",
+    "function": "#61afef",
+    "method": "#98c379",
+    "parameter": {
+      "foreground": "#d19a66",
+      "fontStyle": "bold"
+    }
+  }
 }
