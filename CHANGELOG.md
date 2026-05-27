@@ -1,6 +1,21 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.2
+
+- Add escape character highlighting in strings (cyan)
+- Add regex literal coloring: quantifiers, groups, anchors, character classes
+- Add decorator/annotation coloring for Python, TypeScript, Java, Kotlin (italic purple)
+- Add Python `self`/`cls` highlighting (italic red), type hints, docstrings, built-ins, dunder methods
+- Add TypeScript/JS: interface, type alias, generic, enum member, and object key colors
+- Add JS/TS arrow function operator color
+- Add YAML key, anchor/alias, and boolean/null/timestamp constant colors
+- Add Shell variable reference and built-in command colors
+- Add Rust lifetime (italic orange), macro, and attribute colors
+- Add Ruby symbol and instance/class variable colors
+- Add CSS: class, ID, and element selector colors; media query feature and color value colors
+- Add Markdown: fenced code language identifier highlighting
+
 ### v0.5.1
 
 - Add bold + italic TOML header highlighting with distinct header/bracket colors
