@@ -1,6 +1,11 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.7
+
+- Add TypeScript/JS `meta.type.annotation` scopes (#56b6c2 cyan) to color full parameter type annotations (covers unions, generics, function types, etc.)
+- Add `type` semantic token color (#56b6c2 cyan) for semantic-highlighting-aware editors
+
 ### v0.5.6
 
 - Restore `bold italic` fontStyle on Python docstrings (was accidentally stripped in v0.5.5)
