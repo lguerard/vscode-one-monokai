@@ -842,6 +842,18 @@
       }
     },
     {
+      "name": "TypeScript/JS: Parameter Type Annotations",
+      "scope": [
+        "meta.type.annotation.ts",
+        "meta.type.annotation.tsx",
+        "meta.type.annotation.js",
+        "meta.type.annotation.jsx"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
       "name": "TypeScript: Enum Members",
       "scope": [
         "variable.other.enummember.ts",
@@ -1301,6 +1313,7 @@
     "variable.readonly": "#56b6c2",
     "function": "#61afef",
     "method": "#98c379",
+    "type": "#56b6c2",
     "parameter": {
       "foreground": "#d19a66",
       "fontStyle": "bold"
