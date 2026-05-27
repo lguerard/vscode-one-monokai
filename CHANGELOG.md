@@ -1,7 +1,15 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
-### v0.5.5
+### v0.5.6
+
+- Restore `bold italic` fontStyle on Python docstrings (was accidentally stripped in v0.5.5)
+- Remove fake `numpydocstring.*` scopes that never fired (no grammar produces them; full numpy docstring sub-formatting requires a separate grammar extension)
+- Fix Python loop keyword rule to target real MagicPython scope (`keyword.control.flow.python`) instead of non-existent `keyword.control.loop.python`
+- Remove dead `meta.for-in.python` compound selectors (scope does not exist in MagicPython grammar)
+- Add `variable` semantic token color (#d19a66 orange) so Pylance-powered loop vars and local variables are distinctly colored
+- Add `variable.readonly` semantic token color (#56b6c2 cyan) for constants
+- Add `module` semantic token as alias for `namespace` (covers both Pylance token type spellings)
 
 - Make Python docstrings much more prominent (higher-contrast yellow with bold+italic style)
 - Add Python exception-class highlighting for easier error-path scanning
