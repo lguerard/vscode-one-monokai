@@ -649,8 +649,7 @@
       "name": "Python: Loop Index Variables",
       "scope": [
         "meta.for-in.list.python variable.parameter",
-        "meta.for-in.list.python variable.other.readwrite.python",
-        "meta.sequence.list variable.other"
+        "meta.sequence.list.python variable.other.python"
       ],
       "settings": {
         "foreground": "#d19a66",
@@ -1179,8 +1178,7 @@
       "scope": [
         "keyword.control.loop.python",
         "keyword.control.conditional.python",
-        "keyword.operator.logical.python",
-        "keyword.control.flow.python"
+        "keyword.operator.logical.python"
       ],
       "settings": {
         "foreground": "#e06c75"
@@ -1190,7 +1188,6 @@
       "name": "Python: Loop Targets",
       "scope": [
         "meta.for-in.python variable.other.readwrite.python",
-        "meta.for-in.python variable.parameter",
         "meta.for-in.python meta.tuple.python variable.other.readwrite.python",
         "meta.for-in.python meta.list.python variable.other.readwrite.python"
       ],
@@ -1222,17 +1219,6 @@
       ],
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "Python: Comprehension Keywords",
-      "scope": [
-        "meta.comprehension.python keyword.control.loop.python",
-        "meta.comprehension.python keyword.control.conditional.python",
-        "meta.comprehension.python keyword.operator.logical.python"
-      ],
-      "settings": {
-        "foreground": "#e06c75"
       }
     },
     {
