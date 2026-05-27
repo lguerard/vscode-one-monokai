@@ -1647,6 +1647,233 @@
       "settings": {
         "foreground": "#61afef"
       }
+    },
+    {
+      "name": "Python: async / await keywords",
+      "scope": [
+        "storage.modifier.async.python",
+        "keyword.control.flow.await.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: match / case (structural pattern matching)",
+      "scope": [
+        "keyword.control.flow.match.python",
+        "keyword.control.flow.case.python"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python: global / nonlocal",
+      "scope": [
+        "keyword.control.flow.global.python",
+        "keyword.control.flow.nonlocal.python"
+      ],
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: lambda keyword",
+      "scope": [
+        "storage.type.function.lambda.python",
+        "keyword.other.lambda.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: walrus operator :=",
+      "scope": [
+        "keyword.operator.walrus.python"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "Python: bitwise operators",
+      "scope": [
+        "keyword.operator.bitwise.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: membership and identity operators",
+      "scope": [
+        "keyword.operator.membership.python",
+        "keyword.operator.identity.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: type annotation colon and return arrow",
+      "scope": [
+        "punctuation.separator.annotation.python",
+        "punctuation.separator.annotation.result.python",
+        "keyword.operator.arrow.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: magic / dunder attributes",
+      "scope": [
+        "support.variable.magic.python",
+        "variable.other.magic.python"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: string type prefixes r b f rb",
+      "scope": [
+        "storage.type.string.python"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "Python: format string placeholders",
+      "scope": [
+        "constant.character.format.placeholder.other.python",
+        "meta.format-spec.python",
+        "punctuation.definition.format-spec.begin.python",
+        "punctuation.definition.format-spec.end.python"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "Python: f-string expression variables",
+      "scope": [
+        "meta.interpolation.python variable.other.readwrite.python",
+        "meta.interpolation.python variable.other.python",
+        "meta.interpolation.python variable.other"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "Python: f-string expression calls",
+      "scope": [
+        "meta.interpolation.python meta.function-call.python entity.name.function",
+        "meta.interpolation.python variable.function.python"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Python: comprehension keywords",
+      "scope": [
+        "meta.comprehension.python keyword.control.flow.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Python: class definition name",
+      "scope": [
+        "entity.name.type.class.python"
+      ],
+      "settings": {
+        "foreground": "#61afef",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python: class instantiation calls",
+      "scope": [
+        "meta.function-call.python entity.name.type.class.python",
+        "meta.call.python entity.name.type.class.python"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Python: augmented assignment operators",
+      "scope": [
+        "keyword.operator.augmented-assignment.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Python: parameter unpacking operators",
+      "scope": [
+        "keyword.operator.unpacking.parameter.python",
+        "keyword.operator.unpacking.arguments.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Python: import / from / as keywords",
+      "scope": [
+        "keyword.control.import.python",
+        "keyword.control.flow.import.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Python: type alias keyword (3.12+)",
+      "scope": [
+        "keyword.control.type.python",
+        "storage.type.type-alias.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: type parameters (3.12+)",
+      "scope": [
+        "entity.name.type.type-parameter.python",
+        "variable.type.parameter.python",
+        "punctuation.definition.typeparameters.begin.python",
+        "punctuation.definition.typeparameters.end.python"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "Python: comparison operators",
+      "scope": [
+        "keyword.operator.comparison.python"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
     }
   ],
   "semanticHighlighting": true,
@@ -1675,6 +1902,23 @@
     "parameter": {
       "foreground": "#d19a66",
       "fontStyle": "bold"
+    },
+    "typeAlias": "#56b6c2",
+    "function.async": {
+      "foreground": "#98c379",
+      "fontStyle": "italic"
+    },
+    "method.async": {
+      "foreground": "#98c379",
+      "fontStyle": "italic"
+    },
+    "method.magic": {
+      "foreground": "#98c379",
+      "fontStyle": "italic"
+    },
+    "class.abstract": {
+      "foreground": "#61afef",
+      "fontStyle": "italic"
     }
   }
 }

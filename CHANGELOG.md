@@ -1,6 +1,32 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.9
+
+- Add Python: `async`/`await` → cyan italic (was red)
+- Add Python: `match`/`case` (3.10+ structural pattern matching) → purple bold
+- Add Python: `global`/`nonlocal` → orange italic
+- Add Python: `lambda` keyword → cyan italic
+- Add Python: walrus operator `:=` → purple
+- Add Python: bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`) → cyan
+- Add Python: membership/identity operators (`in`, `not in`, `is`, `is not`) → red italic
+- Add Python: type annotation colon and return arrow `->` → cyan (matches type hint color)
+- Add Python: magic/dunder attributes (`__name__`, `__all__`, etc.) → purple italic
+- Add Python: string type prefixes (`r""`, `b""`, `f""`, `rb""`) → yellow (matches string color)
+- Add Python: format string placeholders (`%s`, `%d`, `{:.2f}`, etc.) → purple
+- Add Python: variables inside f-string expressions → orange
+- Add Python: function calls inside f-string expressions → blue (explicit)
+- Add Python: comprehension keywords (`for`/`in`/`if` inside `[... for ... in ...]`) → red bold italic
+- Add Python: class definition names → blue bold
+- Add Python: class instantiation calls → blue (explicit)
+- Add Python: augmented assignment operators (`+=`, `-=`, `*=`, etc.) → explicit red
+- Add Python: parameter unpacking operators (`*`, `**` in definitions/calls) → explicit red
+- Add Python: `import`/`from`/`as` keywords → explicit red
+- Add Python: `type` alias keyword (3.12+) → cyan
+- Add Python: type parameters `[T]` (3.12+) → orange
+- Add Python: comparison operators → explicit red
+- Add semantic tokens: `typeAlias`, `function.async`, `method.async`, `method.magic`, `class.abstract`
+
 ### v0.5.8
 
 - Add `this`/`super`/`self` italic styling for JS, TS, PHP, Swift, Ruby
