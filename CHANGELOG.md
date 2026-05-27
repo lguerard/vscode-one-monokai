@@ -1,6 +1,23 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.8
+
+- Add `this`/`super`/`self` italic styling for JS, TS, PHP, Swift, Ruby
+- Add PHP `$variable` orange coloring + `$this` red italic override
+- Add C/C++: preprocessor directives purple, macro names purple bold, namespace names cyan
+- Add C#: namespace names cyan, property/field names orange
+- Add Go: package and import names cyan
+- Add Rust: field access orange
+- Add Swift: attribute modifier purple italic
+- Add SQL: DML/DDL keyword coloring, aggregate functions cyan, data types blue
+- Add GraphQL: keyword, type/fragment, field, and directive coloring
+- Add Dockerfile: instruction keywords red bold, image/stage names blue
+- Add INI/Properties: section headers blue bold, key names orange
+- Add Markdown: strikethrough font style
+- Add CSS/SCSS: `!important` red bold, `@`-rule keywords purple, `@`-rule names blue
+- Add semantic tokens: `class`, `interface`, `struct`, `enum`, `enumMember`, `typeParameter`, `property`, `decorator`, `event`, `macro`, `regexp`
+
 ### v0.5.7
 
 - Add TypeScript/JS `meta.type.annotation` scopes (#56b6c2 cyan) to color full parameter type annotations (covers unions, generics, function types, etc.)

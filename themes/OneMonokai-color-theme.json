@@ -1303,6 +1303,350 @@
       "settings": {
         "foreground": "#d19a66"
       }
+    },
+    {
+      "name": "JS/TS/PHP/Swift/Ruby: this, self, super",
+      "scope": [
+        "variable.language.this.js",
+        "variable.language.super.js",
+        "variable.language.this.ts",
+        "variable.language.super.ts",
+        "variable.language.this.tsx",
+        "variable.language.super.tsx",
+        "variable.language.this.jsx",
+        "variable.language.this.php",
+        "variable.language.super.php",
+        "variable.language.self.swift",
+        "variable.language.super.swift",
+        "variable.language.self.ruby",
+        "variable.language.super.ruby"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP: Variables",
+      "scope": [
+        "variable.other.php",
+        "variable.other.normal.php",
+        "variable.other.global.php",
+        "variable.other.global.safer.php",
+        "punctuation.definition.variable.php"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "PHP: $this",
+      "scope": [
+        "variable.language.this.php"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C/C++: Preprocessor Directives",
+      "scope": [
+        "keyword.control.directive.cpp",
+        "keyword.control.directive.c",
+        "keyword.control.directive.include.cpp",
+        "keyword.control.directive.include.c",
+        "keyword.control.directive.define.cpp",
+        "keyword.control.directive.define.c",
+        "keyword.control.directive.conditional.cpp",
+        "keyword.control.directive.conditional.c",
+        "punctuation.definition.directive.cpp",
+        "punctuation.definition.directive.c"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "C/C++: Macro Names",
+      "scope": [
+        "entity.name.function.preprocessor.cpp",
+        "entity.name.function.preprocessor.c"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "C/C++: Namespace Names",
+      "scope": [
+        "entity.name.namespace.cpp",
+        "entity.name.namespace.c"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "C#: Namespace Names",
+      "scope": [
+        "entity.name.type.namespace.cs",
+        "entity.name.namespace.cs"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "C#: Property and Field Names",
+      "scope": [
+        "entity.name.variable.field.cs",
+        "entity.name.variable.property.cs"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "Go: Package and Import Names",
+      "scope": [
+        "entity.name.package.go",
+        "entity.name.import.go"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Rust: Field Access",
+      "scope": [
+        "variable.other.field.rust"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "Swift: Attributes",
+      "scope": [
+        "storage.modifier.attribute.swift",
+        "punctuation.definition.attribute.swift"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SQL: DML/DDL Keywords",
+      "scope": [
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.create.sql",
+        "keyword.other.DDL.drop.sql",
+        "keyword.other.DDL.sql",
+        "keyword.other.order.sql",
+        "keyword.other.where.sql",
+        "keyword.other.join.sql",
+        "keyword.other.set.sql",
+        "keyword.other.group.sql",
+        "keyword.other.having.sql",
+        "keyword.other.union.sql",
+        "keyword.other.alias.sql",
+        "keyword.other.data-integrity.sql"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "SQL: Built-in Functions",
+      "scope": [
+        "support.function.aggregate.sql",
+        "support.function.scalar.sql",
+        "support.function.string.sql",
+        "support.function.window.sql",
+        "support.function.datetime.sql"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "SQL: Data Types",
+      "scope": [
+        "storage.type.sql",
+        "support.type.sql",
+        "entity.name.type.sql"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "GraphQL: Keywords",
+      "scope": [
+        "keyword.operation.graphql",
+        "keyword.fragment.graphql",
+        "keyword.subscription.graphql",
+        "keyword.mutation.graphql",
+        "keyword.type.graphql",
+        "keyword.schema.graphql",
+        "keyword.directive.graphql",
+        "keyword.enum.graphql",
+        "keyword.input.graphql",
+        "keyword.interface.graphql",
+        "keyword.union.graphql",
+        "keyword.scalar.graphql",
+        "keyword.extend.graphql",
+        "keyword.implements.graphql",
+        "keyword.on.graphql"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "GraphQL: Type and Fragment Names",
+      "scope": [
+        "entity.name.fragment.graphql",
+        "entity.name.type.graphql",
+        "variable.fragment.graphql"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "GraphQL: Field and Operation Names",
+      "scope": [
+        "string.unquoted.alias.graphql",
+        "entity.name.function.graphql"
+      ],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "GraphQL: Directive Names",
+      "scope": [
+        "entity.name.directive.graphql",
+        "punctuation.definition.directive.graphql"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Dockerfile: Instructions",
+      "scope": [
+        "keyword.other.special-method.dockerfile",
+        "entity.name.function.package.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Dockerfile: Image and Stage Names",
+      "scope": [
+        "entity.name.image.dockerfile",
+        "variable.other.env.dockerfile",
+        "variable.env.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "INI/Properties: Section Headers",
+      "scope": [
+        "entity.name.section.group-title.ini",
+        "entity.name.section.ini",
+        "punctuation.definition.section.ini",
+        "punctuation.definition.section.bracket.begin.ini",
+        "punctuation.definition.section.bracket.end.ini"
+      ],
+      "settings": {
+        "foreground": "#61afef",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "INI/Properties: Keys",
+      "scope": [
+        "keyword.other.definition.ini"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Markdown: Strikethrough",
+      "scope": [
+        "markup.strikethrough.markdown",
+        "punctuation.definition.strikethrough.markdown"
+      ],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "CSS/SCSS: !important",
+      "scope": [
+        "keyword.other.important.css",
+        "keyword.other.important.scss",
+        "keyword.other.important.less",
+        "keyword.other.important.sass"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS/SCSS: @-Rule Keywords",
+      "scope": [
+        "keyword.control.at-rule.keyframes.css",
+        "keyword.control.at-rule.keyframes.scss",
+        "keyword.control.at-rule.keyframes.less",
+        "keyword.control.at-rule.media.css",
+        "keyword.control.at-rule.media.scss",
+        "keyword.control.at-rule.media.less",
+        "keyword.control.at-rule.supports.css",
+        "keyword.control.at-rule.import.css",
+        "keyword.control.at-rule.import.scss",
+        "keyword.control.at-rule.forward.scss",
+        "keyword.control.at-rule.use.scss",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.function.scss",
+        "keyword.control.at-rule.each.scss",
+        "keyword.control.at-rule.while.scss",
+        "keyword.control.at-rule.for.scss",
+        "keyword.control.at-rule.if.scss",
+        "keyword.control.at-rule.else.scss",
+        "keyword.control.at-rule.return.scss",
+        "keyword.control.at-rule.charset.css"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "CSS/SCSS: @-Rule Names",
+      "scope": [
+        "variable.other.animation-name.css",
+        "variable.other.animation.css",
+        "entity.name.function.scss",
+        "entity.other.attribute-name.mixin.scss"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
     }
   ],
   "semanticHighlighting": true,
@@ -1314,6 +1658,20 @@
     "function": "#61afef",
     "method": "#98c379",
     "type": "#56b6c2",
+    "class": "#61afef",
+    "interface": "#61afef",
+    "struct": "#61afef",
+    "enum": "#61afef",
+    "enumMember": "#56b6c2",
+    "typeParameter": "#d19a66",
+    "property": "#d19a66",
+    "decorator": {
+      "foreground": "#c678dd",
+      "fontStyle": "italic"
+    },
+    "event": "#e06c75",
+    "macro": "#56b6c2",
+    "regexp": "#e5c07b",
     "parameter": {
       "foreground": "#d19a66",
       "fontStyle": "bold"
