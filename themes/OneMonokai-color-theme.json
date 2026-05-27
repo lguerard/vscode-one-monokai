@@ -646,17 +646,6 @@
       }
     },
     {
-      "name": "Python: Loop Index Variables",
-      "scope": [
-        "meta.for-in.list.python variable.parameter",
-        "meta.sequence.list.python variable.other.python"
-      ],
-      "settings": {
-        "foreground": "#d19a66",
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Python: Indexed Numbers",
       "scope": [
         "meta.item-access.python constant.numeric.integer.decimal.python",
