@@ -26,6 +26,7 @@ All notable changes to the "one-monokai" extension will be documented in this fi
 - Add Python: type parameters `[T]` (3.12+) → orange
 - Add Python: comparison operators → explicit red
 - Add semantic tokens: `typeAlias`, `function.async`, `method.async`, `method.magic`, `class.abstract`
+- Add Pylance-specific semantic tokens: `member`, `member.async`, `magicFunction`, `selfParameter`, `clsParameter`
 
 ### v0.5.8
 

@@ -1974,6 +1974,23 @@
       "foreground": "#98c379",
       "fontStyle": "italic"
     },
+    "member": "#98c379",
+    "member.async": {
+      "foreground": "#98c379",
+      "fontStyle": "italic"
+    },
+    "magicFunction": {
+      "foreground": "#98c379",
+      "fontStyle": "italic"
+    },
+    "selfParameter": {
+      "foreground": "#e06c75",
+      "fontStyle": "italic"
+    },
+    "clsParameter": {
+      "foreground": "#e06c75",
+      "fontStyle": "italic"
+    },
     "class.abstract": {
       "foreground": "#61afef",
       "fontStyle": "italic"
