@@ -249,7 +249,8 @@
       "name": "Function name",
       "scope": [
         "entity.name.function",
-        "support.function"
+        "support.function",
+        "variable.function"
       ],
       "settings": {
         "foreground": "#98c379"
@@ -1873,6 +1874,63 @@
       ],
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Loop Keywords",
+      "scope": [
+        "keyword.control.loop",
+        "keyword.control.iteration"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "Call Argument Names (named/keyword arguments)",
+      "scope": [
+        "variable.parameter.function-call",
+        "entity.name.variable.parameter.function-call",
+        "variable.parameter.named"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Java/Kotlin/C#: Method Call Names",
+      "scope": [
+        "meta.method-call.java entity.name.function.java",
+        "meta.method-call.cs entity.name.function.cs",
+        "meta.method-call.kotlin entity.name.function.kotlin",
+        "meta.function-call.cs entity.name.function.cs"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Java/C#/Kotlin: Type and Namespace References",
+      "scope": [
+        "storage.type.java",
+        "entity.name.type.class.java",
+        "entity.name.namespace.java",
+        "entity.name.type.namespace.kotlin",
+        "entity.name.namespace.kotlin"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Go: Function and Method Calls",
+      "scope": [
+        "meta.function-call.go entity.name.function.go",
+        "support.function.go",
+        "entity.name.function.go"
+      ],
+      "settings": {
+        "foreground": "#61afef"
       }
     }
   ],
