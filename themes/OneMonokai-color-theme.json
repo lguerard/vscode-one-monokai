@@ -454,6 +454,34 @@
       }
     },
     {
+      "name": "TOML: Header Name",
+      "scope": [
+        "entity.name.section.toml",
+        "entity.name.section.group-title.toml",
+        "entity.name.section.table.toml",
+        "entity.name.section.array.toml",
+        "support.type.property-name.table.toml",
+        "support.type.property-name.array.toml"
+      ],
+      "settings": {
+        "foreground": "#61afef",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "TOML: Header Brackets",
+      "scope": [
+        "punctuation.definition.table.begin.toml",
+        "punctuation.definition.table.end.toml",
+        "punctuation.definition.array.table.begin.toml",
+        "punctuation.definition.array.table.end.toml"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
       "name": "Link",
       "scope": "string.detected-link",
       "settings": {
@@ -581,6 +609,45 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Markdown: List Text",
+      "scope": [
+        "markup.list.unnumbered.markdown",
+        "markup.list.numbered.markdown"
+      ],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "Python: Call Argument Names",
+      "scope": [
+        "keyword.argument.python",
+        "entity.name.variable.parameter.function-call.python",
+        "variable.parameter.function-call.python"
+      ],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Python: Loop Index Variables",
+      "scope": [
+        "meta.for-in.list.python variable.other.readwrite.python",
+        "meta.for-in.list.python variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: Indexed Numbers",
+      "scope": "meta.item-access.python constant.numeric.integer.decimal.python",
+      "settings": {
+        "foreground": "#c678dd"
       }
     }
   ]

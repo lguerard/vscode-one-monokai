@@ -1,6 +1,12 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.5.1
+
+- Add bold + italic TOML header highlighting with distinct header/bracket colors
+- Expand markdown list highlighting to color list content
+- Improve Python argument and loop index highlighting (including named call arguments)
+
 ### v0.4.4
 
 - Revert change to embedded ruby (erb) scope
