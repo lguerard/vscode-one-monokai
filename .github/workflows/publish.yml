@@ -59,10 +59,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Publish to VS Code Marketplace
+        if: ${{ secrets.VSCE_PAT != '' }}
         uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.VSCE_PAT }}
       - name: Publish to Open VSX Registry
+        if: ${{ secrets.OPEN_VSX_TOKEN != '' }}
         uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}

@@ -12,6 +12,21 @@ press `ctl/command + p` to launch quick open then run
 ext install one-monokai
 ```
 
+### Install from a downloaded `.vsix` (Linux & Windows)
+
+Grab the `.vsix` file from the [latest GitHub release](https://github.com/lguerard/vscode-one-monokai/releases/latest), then either:
+
+**Command line** (same command on Linux and Windows, `code` must be on your `PATH`):
+```
+code --install-extension one-monokai-X.Y.Z.vsix
+```
+
+**VS Code UI**:
+1. Open the Extensions view (`Ctrl+Shift+X`)
+2. Click the `...` menu at the top of the Extensions view
+3. Select **Install from VSIX...**
+4. Pick the downloaded `.vsix` file
+
 ## Screenshot
 Screenshot of Ruby and JavaScript
 
