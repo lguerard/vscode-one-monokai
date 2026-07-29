@@ -2,7 +2,7 @@
     "name": "one-monokai",
     "displayName": "One Monokai Theme (lguerard)",
     "description": "A cross between Monokai and One Dark theme",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "publisher": "lguerard",
     "engines": {
         "vscode": "^1.13.0"
