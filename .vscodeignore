@@ -1,3 +1,10 @@
-/demo
+demo/**
 .gitignore
-colors.sass
+.vscodeignore
+colors.scss
+.claude/**
+.github/**
+.vscode/**
+cliff.toml
+cliff.release.toml
+*.vsix
